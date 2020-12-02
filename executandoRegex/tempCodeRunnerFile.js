@@ -1,1 +1,2 @@
-console.log(texto.match(/ab|c/gi))
+console.log(texto.search(regexLetras))
+console.log(texto.replace(regexLetras, 'Achei'))
