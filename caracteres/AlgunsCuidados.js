@@ -6,4 +6,4 @@ const textoMultiLinha = `
 `
 
 // cuidado com o tab!
-console.log('	'.match(/\s/g))
+console.log('   '.match(/\s/g))
