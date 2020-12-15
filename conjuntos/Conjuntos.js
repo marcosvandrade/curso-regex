@@ -5,5 +5,5 @@ const regexPares = /[02468]/g
 console.log(texto.match(regexPares))
 
 const texto2 = 'João não vai passear na moto.'
-const regexComESemAcento = /n[aã]/g
+const regexComESemAcento = /n[aã]./g
 console.log(texto2.match(regexComESemAcento))
